@@ -19,7 +19,7 @@
       <h1 id="logo"><a href="#">ZnShoes</a></h1>
       <div id="navigation">
         <ul>
-          <li><a href="{{url('beranda')}}">Beranda</a></li>
+          <li><a href="{{url('user')}}">Beranda</a></li>
           <li><a href="{{url('produk')}}">Produk</a></li>
           <li><a href="{{url('kategori')}}">Kategori</a></li>
           <li><a href="{{url('login')}}">Logout</a></li>
