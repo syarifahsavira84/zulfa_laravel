@@ -29,3 +29,18 @@ Route::get('/kategori', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/admin', function () {
+    return view('template.admin');
+});
+Route::get('/beranda2', function () {
+    return view('beranda2');
+});
+Route::get('/login2', function () {
+    return view('login2');
+});
+Route::get('/produk2', function () {
+    return view('produk2');
+});
+Route::get('/kategori2', function () {
+    return view('kategori2');
+});
